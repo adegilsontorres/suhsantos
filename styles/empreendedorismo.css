@@ -1,0 +1,8 @@
+.empreendedorismo__banner {
+    width: 100vw;
+    height: 520px;
+    background-image: url("../assets/Espaço Criolas Creme 1200.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -10rem;
+}

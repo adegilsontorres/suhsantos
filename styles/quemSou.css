@@ -1,0 +1,37 @@
+.quemSou__texto {
+    color: var(--cor-terracota);
+}
+
+.quemSou {
+    display: flex;
+    height: 25rem;
+    width: calc(100vw - var(--borda-container)*2);
+
+    background-color: var(--cor-creme);
+
+    gap: 2rem;
+    padding: 4rem var(--borda-container);
+}
+
+.quemSou__imagem__item {
+    max-width: 256px;
+    min-width: 128px;
+}
+
+.quemSou__texto__titulo {
+    font-family: var(--fonte-cursiva);
+    font-size: 2rem;
+}
+
+.quemSou__texto {
+    width: 2fr;
+    white-space: wrap;
+}
+
+.quemSou__texto__paragrafo {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+
+

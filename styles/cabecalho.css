@@ -1,0 +1,33 @@
+#PaginaInicial {
+    font-weight: 600;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 4rem;
+    width: 100vw;
+
+    position: sticky;
+    top: 0;
+
+    font-size: 1rem;
+
+    background-color: var(--cor-terra);
+}
+
+.cabecalho__lista {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.cabecalho__lista__item a {
+    color: var(--cor-branco);
+}
+
+.cabecalho__lista__item :hover {
+    border-bottom: 4px solid var(--cor-terracota);
+}
+

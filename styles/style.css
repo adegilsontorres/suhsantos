@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --cor-terra: #C07932;
+    --cor-terracota: #9D2A03;
+    --cor-creme: #F6DEA2;
+    --cor-chumbo: #363435;
+    --cor-dourado: #DAA315;
+    --cor-branco: #FEFDED;
+
+    --fonte-padrao: "Ubuntu", sans-serif;
+    --fonte-cursiva: "Dancing Script", cursive;
+
+    --borda-container: 8rem;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 128px;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+.container {
+    width: calc(100vw - var(--borda-container*2));
+    display: flex;
+
+    gap: 6rem;
+}
+
+.tarja {
+    height: 4rem;
+    width: 100vw;
+    background-color: var(--cor-terracota);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarja__titulo {
+    font-family: var(--fonte-cursiva);
+    color: var(--cor-branco);
+    font-size: 2rem;
+}

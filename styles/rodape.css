@@ -1,0 +1,31 @@
+#NossasRedes{
+    font-weight: 600;
+    color: var(--cor-branco);
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 4rem;
+    width: 100vw;
+
+    font-size: 1rem;
+
+    background-color: var(--cor-terra);
+}
+
+.rodape__lista {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.rodape__lista__item a {
+    color: var(--cor-branco);
+}
+
+.rodape__lista__item :hover {
+    border-bottom: 4px solid var(--cor-terracota);
+}
