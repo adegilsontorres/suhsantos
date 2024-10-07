@@ -2,7 +2,6 @@
 .cultura {
     display: flex;
     flex-direction: column;
-    /* height: 25rem; */
     width: calc(100vw - var(--borda-container)*2);
 
     background-color: var(--cor-branco);
