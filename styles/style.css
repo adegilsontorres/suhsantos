@@ -44,10 +44,55 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    white-space: wrap;
 }
 
 .tarja__titulo {
     font-family: var(--fonte-cursiva);
     color: var(--cor-branco);
     font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    :root {
+        --borda-container: 6rem;
+    
+    }
+
+    .container {
+        gap: 4rem
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --borda-container: 4rem;
+    
+    }
+
+    #tarja-empreendedorismo {
+        height: 5rem;
+    }
+    
+    .container {
+        gap: 2.5rem;   
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .tarja__titulo {
+        font-size: 1.75rem;
+        margin: auto 48px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        gap: 1.5rem
+    }
+
 }
