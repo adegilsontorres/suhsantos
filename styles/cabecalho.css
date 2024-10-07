@@ -31,3 +31,24 @@
     border-bottom: 4px solid var(--cor-terracota);
 }
 
+@media screen and (max-width: 1024px) {
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        font-size: 0.8rem;
+    }
+
+    .cabecalho__lista {
+        gap: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    
+}
+
+
