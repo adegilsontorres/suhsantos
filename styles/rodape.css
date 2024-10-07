@@ -29,3 +29,19 @@
 .rodape__lista__item :hover {
     border-bottom: 4px solid var(--cor-terracota);
 }
+
+@media screen and (max-width: 768px) {
+    .rodape__lista {
+        gap: 1rem;
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    #NossasRedes {
+        display: none;
+    }    
+}
+
+
